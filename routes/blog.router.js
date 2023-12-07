@@ -4,7 +4,7 @@ const express=require("express");
 const { userModel } = require("../model/user.model");
 const blogRouter=express.Router();
 
-blogRouter.use(auth)
+//blogRouter.use(auth)
 
 //blogs router for getting all blogs
 
